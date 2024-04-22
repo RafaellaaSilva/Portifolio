@@ -1,0 +1,66 @@
+/* * é para aplicar para todos */
+*{
+    margin: 2px;
+    padding: 3px;
+    border: 0;
+}
+
+body {
+background-image: linear-gradient(90deg, #ffffff);
+}
+/* #FF4D00 -> Laranja */
+/* #2148AD -> Azul  */
+
+header{
+    background-color: #2148AD;
+    /* margin: 7px; */
+    display: flex;
+    /* Quando coloco display flex, os elementos ficam tudo na mesma linha e não um embaixo do outro */
+    flex-direction: column;
+    /* Aqui colocamos uma um elemnto embaixo do outro */
+    align-items: center;
+    /* justify-contente alinhamento dos itens na vertical */
+    justify-content: center;
+    /* height: 350px; */
+
+}
+
+header img {
+    /* Width é tamanho */
+    width: 150px;
+    /* Border=Bordar depois vaitamanho, o tipo da bordar e cor (  */
+    border: 2px solid #fff;
+    /* solid é bordar reta, dashed é pontilhado */
+    /* Border-Radius ta falando da borda da img */
+    border-radius:  00px 00px 00px 00px;
+    display: flex;
+}
+
+header nav li {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline;
+    padding: 25px;
+}
+
+header nav {
+    padding: 40px;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+
+/* houver significa: a personalização so vai aparecer quando o cursor so mouse ir emcima do elemento */
+header nav ul li:hover {
+    background-color: #fff;
+    color: #2148AD;
+    font-weight: bold;
+    transition: 50ms;
+    /* transition é quantos segundos de transição de um elemento para outro */
+    padding: 10px;
+}
+
+header img:hover{
+    width: 250px;
+}
