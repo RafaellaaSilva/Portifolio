@@ -34,7 +34,7 @@ header img {
     /* solid é bordar reta, dashed é pontilhado */
     /* Border-Radius ta falando da borda da img */
     border-radius:  00px 00px 00px 00px;
-    display: flex;
+    /* display: flex; */
 }
 
 header nav li {
