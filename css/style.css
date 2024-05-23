@@ -28,7 +28,7 @@ header{
 
 header img {
     /* Width é tamanho */
-    width: 150px;
+    width: 60px 60px 60px 60px;
     /* Border=Bordar depois vaitamanho, o tipo da bordar e cor (  */
     border: 2px solid #fff;
     /* solid é bordar reta, dashed é pontilhado */
@@ -36,6 +36,22 @@ header img {
     border-radius:  00px 00px 00px 00px;
     /* display: flex; */
 }
+
+.logo{
+    width: 100px
+    }
+
+    /* 
+    -> Essa função permite que quando passar o mouse por cima da imagem ela aumente o tamanho
+    header img:hover{
+    width: 50px;
+
+} */
+
+.imagem{
+    width: 400px
+}
+
 
 header nav li {
     color: #fff;
@@ -57,14 +73,12 @@ header nav ul li:hover {
     background-color: #fff;
     color: #2148AD;
     font-weight: bold;
-    transition: 50ms;
+    transition: 100ms;
     /* transition é quantos segundos de transição de um elemento para outro */
     padding: 10px;
 }
 
-header img:hover{
-    width: 250px;
-}
+
 
 .main-conteudo{
     display: flex;
@@ -87,6 +101,7 @@ main h1 {
     padding: 25PX 0px;
     /* text-transform: uppercase; TEXTO EM MAIUSCULA*/
     font-weight: bold;
+    color: #fff;
 }     
 
 .descritivo {
@@ -94,3 +109,17 @@ main h1 {
     text-align: justify;
     font-size: 20px;
 }
+
+.meu_nome{
+    text-transform:lowercase;
+    color: #fff;
+}
+
+/* 
+
+1 -> Como deixar o meu nome branco e tudo em maiuscula pelo css
+
+2 -> Como deixar a imagem do tamanho do meu texto
+
+
+*/
